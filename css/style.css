@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inicio {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-inicio {
+    flex-wrap: nowrap;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#img-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+#banner img {
+    width: 170px;
+    height: 200px;
+}
+
+#banner h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#destaques {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 32%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.emoji {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
